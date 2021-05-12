@@ -3,8 +3,19 @@ header {
     box-shadow: 0 5px 10px black;
 }
 
+header >div {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+header >div >div {
+    width: 300px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
 header h2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 .NavBar {
@@ -16,4 +27,6 @@ header h2 {
 
 .NavBar a {
     padding: 15px;
+    text-decoration: none;
+
 }

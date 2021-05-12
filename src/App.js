@@ -5,17 +5,18 @@ import Footer from "./components/Footer";
 import Header from './components/Header';
 
 // Pages:
-import Climate from "./pages/Climate";
-import Covid from "./pages/Covid";
-import Culture from "./pages/Culture";
 import Homepage from './pages/Homepage';
+import Climate from "./pages/Climate";
 import Sightseeing from "./pages/Sightseeing";
+import Culture from "./pages/Culture";
 import Transport from "./pages/Transport";
+import Covid from "./pages/Covid";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
   return (
-    <div>
+    <div style={{paddingBottom:"60px"}}>
 
       <Header />
 
@@ -44,6 +45,9 @@ function App() {
         <Route exact path="/covid">
           <Covid />
         </Route>
+
+        <Route component={NotFound} />
+
 
       </Switch>
 

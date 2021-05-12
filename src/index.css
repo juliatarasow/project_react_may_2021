@@ -12,3 +12,12 @@ body {
     background-position: center;
     height: 100vh;
   }
+
+/* NotFound */
+.NotFound {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }

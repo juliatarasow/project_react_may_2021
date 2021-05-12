@@ -1,0 +1,60 @@
+{
+    "sights" : [
+        {
+            "id": 1,
+            "title": "Torre dos Clérigos",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-torre-dos-clerigos.jpg",
+            "description": "The soaring Clérigos Tower punctuates Porto's skyline like a monumental needle.",
+            "more": "The soaring Clérigos Tower punctuates Porto's skyline like a monumental needle. This is the city's most visible landmark, a 75-meter-tall, 18th-century granite-hewn rocket, and visiting this historic structure should be high up on the 'things to do' list. You'll need a stout pair of legs to climb the 240 steps to the top of the tower, but the effort will be rewarded with a breathtaking panorama of the river, the coastline, and the distant Douro valley — a bird's-eye-view of Portugal's second largest city, and an inspiring way for first-time sightseers to get their bearings. Commissioned by the Brotherhood of the Clergy (clérigos) and designed by the Italian-born Nicolau Nasoni, the Baroque tower complements the adjoining Igreja dos Clérigos, which is also Nasoni's handiwork. Built between 1732 and 1750, the church itself is a wonderful example of the architect's affinity with the Baroque and features an elliptic floorplan, one of the first churches in Portugal built in such a way."
+        },
+        {
+            "id": 2,
+            "title": "Ponte Dom Luís I",
+            "image": "https://images.unsplash.com/photo-1569959220744-ff553533f492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=745&q=80",
+            "description": "The grandiose Dom Luís I bridge is one of the most iconic structures in Portugal.",
+            "more": "The grandiose Dom Luís I bridge is one of the most iconic structures in Portugal. Spanning the mighty River Douro to link Porto with Vila Nova de Gaia on the south bank, the bridge's majestic sweep and two-tier aspect is a binding component in the city's proud, social fabric. The heavily riveted charcoal-grey ironwork has Gustave Eiffel written all over it, and indeed it was an assistant of the great French engineer who built the bridge in 1886. Commuters use the bridge on a daily basis — a road, Avenida da República, runs across the lower deck while the upper span accommodates a metro railway line. Pedestrians can walk across using the narrow pavements set either side of the road, or be really brave and traverse the structure using the 60-meter-high top-tier footpath."
+        },
+        {
+            "id": 3,
+            "title": "Palácio da Bolsa",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-palacio-da-bolsa.jpg",
+            "description": "Dating from the mid-19th century, Porto's former stock exchange.",
+            "more": "Dating from the mid-19th century, Porto's former stock exchange contains a wealth of historic interest. Built on the site of a Franciscan monastery, its sumptuous interior is divided into several rooms and salons, each one singular in its appeal and worthy of close scrutiny. Pretend you're a wealthy merchant visiting on business as you wander through the Portrait Room with its gallery of uniformed monarchs, and then cast your eyes skywards after entering the Golden Room to admire its gilded stucco ceiling. You'll be ready for your meeting with the boss in the lavishly furnished Chairman's Room before joining fellow merchants in the richly decorated Court Hearing Room to witness mercantile law acted out in due process."
+        },
+        {
+            "id": 4,
+            "title": "Cais da Ribeira",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-cais-da-ribeira.jpg",
+            "description": "Porto's riverside quarter is an alluring labyrinth of narrow, winding streets.",
+            "more": "Porto's riverside quarter is an alluring labyrinth of narrow, winding streets; zigzagging alleyways; and low-slung, sun-starved arcades. Facing the River Douro, though, are terraces of lofty townhouses painted in bright mustard, tangerine, and tawny hues — the Ribeira is an adventure in color and flavor. A plethora of restaurants and cafés set under the arches along the quayside makes this the most popular area in the city for relaxing and socializing. Praça da Ribeira, the riverfront square, is a popular and lively meeting point and buzzes with a young, friendly vibe."
+        },
+        {
+            "id": 5,
+            "title": "Vila Nova de Gaia",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-vila-nova-de-gaia.jpg",
+            "description": "With its long, broad promenade and riverfront aspect, Vila Nova de Gaia is an irresistible diversion.",
+            "more": "With its long, broad promenade and riverfront aspect, Vila Nova de Gaia is an irresistible diversion. Easily reached on foot by crossing the Ponte de Dom Luís I, the town's landscaped quayside is fringed by a long line of stylish restaurants and cafés. It's also the departure point for numerous Douro River cruise boats. Adding a wonderfully nostalgic perspective is the fleet of traditional barcos rabelos moored alongside the esplanade. These graceful sailing vessels were once used to ferry casks downriver from the Douro port estates, and with Porto's Ribeira district providing a suitably romantic backdrop, sightseers are regaled with an atmospheric cityscape, a tableaux reminiscent of the 18th century. For a truly dramatic outlook, take a ride on the Teleférico de Gaia, or cable car. This novel new sightseeing attraction runs along the Gaia riverside and connects the upper station, near the Mosteiro da Serra do Pilar, with the eastern end of the esplanade."
+        },
+        {
+            "id": 6,
+            "title": "Igreja do Carmo",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-igreja-do-carmo.jpg",
+            "description": "Plastering the exterior of Porto's 18th-century Carmo church is a blaze of blue and white azulejos (tiles).",
+            "more": "Plastering the exterior of Porto's 18th-century Carmo church is a blaze of blue and white azulejos (tiles), and the striking façade is one of the most instantly recognized in the city. The immense panel is a real head turner, but the splendid gilt carvings that decorate the interior are equally appealing. In fact, the elegant golden-brushed woodwork is among the finest examples of Portuguese Rococo. The neighboring Igreja das Carmelitas is less of an eye-opener. Incredibly, dividing both is a house, built to comply with an ancient law that stipulated that no two churches were to share the same wall. Many believe this to be the narrowest private residence in the country, although it's been unoccupied for nearly 30 years. A whimsical anomaly, the one-meter-wide abode makes for an interesting snapshot squeezed as it is between two granite monoliths."
+        },
+        {
+            "id": 7,
+            "title": "Porto Tram City Tour",
+            "image": "https://www.planetware.com/photos-large/P/portugal-porto-historical-tram.jpg",
+            "description": "Porto's historic center and the riverfront can be admired from a vintage tram.",
+            "more": "Porto's historic center and the riverfront can be admired from a vintage tram during tours that take in several emblematic sights and cultural landmarks. Three different lines serve the destination, all offering a different perspective on Portugal's second city. Line 1 begins near Ponte Dom Luís 1. Depart from here on the 'Riverside Line' to trundle west all the way to the coastal town of Foz do Douro, situated at the mouth of the River Douro and known for its nearby beaches and coves. This leisurely excursion is a favorite option in summer, when you want to escape the city heat. Line 18 is restored track, part circular in design and the shortest ride. The route passes Igreja do Carmo and ends, suitably, at the Museu do Carro Eléctrico, the tram museum. Arguably the most rewarding circuit in terms of sightseeing and attractions is the Line 22 tour. On this route, the streetcar clatters and hisses past Torre dos Clérigos, Igreja do Carmo, and Café Majestic, among other visual showstoppers."
+        },
+        {
+            "id": 8,
+            "title": "Avenida dos Aliados",
+            "image": "https://www.planetware.com/photos-large/P/portugal-oporto-avenida-dos-aliados.jpg",
+            "description": "A vibrant overview of everyday Porto can be gleaned by strolling the length of this broad double avenue.",
+            "more": "A vibrant overview of everyday Porto can be gleaned by strolling the length of this broad double avenue. Lined both sides with shops, stores, boutiques, cafés, and restaurants, 'Aliados' is the city's clamorous commercial hub. At the foot of the thoroughfare lies Praça da Liberdade, but visitors can begin exploring by popping into the nearby Estação de São Bento, Porto's central railway station, to gaze upon the 20,000 or so dazzling azulejos depicting early modes of transport and the history of Portugal. A slow amble north will take you to the Câmera Municipal, Porto's city hall, which crowns the top of the avenue. From here, turn right along Rua Formosa until you reach the site of the historic Mercado do Bolhão."
+        }
+    ]
+}
