@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./footer.css"
+
 
 export default function Footer() {
     return (
-        <div>
+        <footer>
 
             <h3>Footer</h3>
             
-        </div>
+        </footer>
     )
 }

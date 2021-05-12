@@ -1,0 +1,11 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 -5px 10px black;
+    text-align: center;
+    line-height: 60px;
+    } 
