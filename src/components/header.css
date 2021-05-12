@@ -1,0 +1,19 @@
+header {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 5px 10px black;
+}
+
+header h2 {
+    padding: 20px;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-evenly;
+
+    /* border: 1px solid red; */
+}
+
+.NavBar a {
+    padding: 15px;
+}
