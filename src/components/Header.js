@@ -1,32 +1,39 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+import { NavLink} from "react-router-dom"
+import Clock from './Clock';
 import "./header.css"
+import Weather from "./Weather"
+import porto from "../images/selo_2017.png"
 
 export default function Header() {
+
     return (
         <header>
             <div>
-                <h2>Porto - the City of...</h2>
+                <div>
+                    <img src={porto} alt="porto" style={{ height: "90px", width: "auto" }} />
+                </div>
 
-                <div className="weather">Weather</div>
+                <Weather />
+
+                <Clock />
 
                 {/* For Anneli - coding the clock */}
-                <div className="clock">
+                {/* <div className="clock">
                     <h3>Clock</h3>
                     <div>.....</div>
 
-                </div>
-
-
+                </div> */}
             </div>
-    
+
             <nav className="NavBar">
-                <Link to="/">Porto</Link>
-                <Link to="/climate">Climate</Link>
-                <Link to="/sightseeing">Sightseeing</Link>
-                <Link to="/culture">Culture</Link>
-                <Link to="/transport">Transport</Link>
-                <Link to="/covid">COVID</Link>
+                {/* <Link to="/">Porto</Link> */}
+                <NavLink exact to="/" >Porto</NavLink>
+                <NavLink to="/climate">Climate</NavLink>
+                <NavLink to="/sightseeing">Sightseeing</NavLink>
+                <NavLink to="/culture">Culture</NavLink>
+                <NavLink to="/transport">Transport</NavLink>
+                <NavLink to="/covid">COVID</NavLink>
 
             </nav>
         </header>

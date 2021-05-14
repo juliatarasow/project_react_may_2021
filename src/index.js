@@ -4,17 +4,17 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter as Router } from "react-router-dom"
-import { SightsProvider } from "./context";
+import { AllProvider } from "./context";
 
 
 ReactDOM.render(
   <React.StrictMode>
     
-    <SightsProvider>
+    <AllProvider>
       <Router>
         <App />
       </Router>
-    </SightsProvider>
+    </AllProvider>
 
 
   </React.StrictMode>,

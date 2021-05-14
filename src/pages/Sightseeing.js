@@ -1,13 +1,13 @@
 import { useContext } from 'react';
 
-import { SightsContext } from "../context"
+import { AllContext } from "../context"
 import SightCard from "../components/SightCard"
 import "./sightseeing.css"
 
 
 export default function Sightseeing() {
 
-    const { sights } = useContext(SightsContext);
+    const { sights } = useContext(AllContext);
 
     return (
         <div>

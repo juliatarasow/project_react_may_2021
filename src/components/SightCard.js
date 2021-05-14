@@ -2,7 +2,7 @@ import "./sightcard.css"
 
 export default function SightCard({ id, image, title, description, more }) {
 
-    console.log({ id, image, title, description, more });
+    // console.log({ id, image, title, description, more });
 
     return (
         <div className="SightCard">
@@ -15,7 +15,7 @@ export default function SightCard({ id, image, title, description, more }) {
             </div>
 
             <div>
-                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#modal" + id}>
+                <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target={"#modal" + id}>
                     Read more
                 </button>
 

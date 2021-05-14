@@ -5,9 +5,7 @@ import "./footer.css"
 export default function Footer() {
     return (
         <footer>
-
-            <h3>Footer</h3>
-            
+            Made with 💙 by Alina, Anneli, Julia, Hösaam ©️ 2021
         </footer>
     )
 }

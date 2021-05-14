@@ -8,10 +8,28 @@
 }
 
 body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Puente_de_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_29-31_HDR.jpg/2560px-Puente_de_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_29-31_HDR.jpg");
-    background-position: center;
-    height: 100vh;
+    /* background-image: url("./images/bg_porto.jpg"); */
+    /* background-position: center; */
+    /* height: 100vh; */
+
+    background-image: url("./images/bg-tile-small.jpg");
   }
+
+body h1 {
+  padding: 20px;
+  text-align: center;
+  color: #304778;
+  text-shadow: 0 0 10px #FCF460;
+}
+
+.Transport {
+  width: 80vw;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px black;
+  border-radius: 5px;
+}
 
 /* NotFound */
 .NotFound {
