@@ -10,9 +10,6 @@ header >div {
     justify-content: space-around;
     align-items: center;
     color: white;
-    
-    /* border: 1px solid lime; */
-
 }
 header > div > * {
     width: 30%;
@@ -32,7 +29,6 @@ header > div > * {
     font-size: 0.8rem;
 }
 
-
 /* NavBar styling */
 .NavBar {
     display: flex;
@@ -47,6 +43,7 @@ header > div > * {
     color: #FCF460;
 
 }
+
 .NavBar a:hover,
 .NavBar a.active {
     color: #F1B819;
