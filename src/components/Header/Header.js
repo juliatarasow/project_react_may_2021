@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import Clock from '../Clock';
 import './Header.css';
 import Weather from '../Weather';
 import porto from '../../images/selo_2017.png';
@@ -15,15 +14,13 @@ export default function Header() {
                 </div>
 
                 <Weather />
-
-                <Clock />
-
+                
                 {/* For Anneli - coding the clock */}
-                {/* <div className="clock">
+                <div className="Clock">
                     <h3>Clock</h3>
                     <div>.....</div>
 
-                </div> */}
+                </div>
             </div>
 
             <nav className="NavBar">

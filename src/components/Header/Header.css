@@ -22,12 +22,9 @@ header > div > * {
 
 /* Clock styling */
 .Clock {
-    font-size: 2.2rem;
     text-align: right;
 }
-.Clock >div {
-    font-size: 0.8rem;
-}
+
 
 /* NavBar styling */
 .NavBar {
