@@ -1,7 +1,0 @@
-.Sightseeing {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90vw;
-    margin: 20px auto;
-    justify-content: space-evenly;
-}

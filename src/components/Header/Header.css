@@ -1,0 +1,53 @@
+header {
+    background-color: rgba(48, 71, 120, 0.85);
+    box-shadow: 0 5px 10px black;
+}
+
+header >div {
+    height: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+header > div > * {
+    width: 30%;
+}
+
+/* Weather styling */
+.Weather {
+    text-align: center;
+}
+
+/* Clock styling */
+.Clock {
+    font-size: 2.2rem;
+    text-align: right;
+}
+.Clock >div {
+    font-size: 0.8rem;
+}
+
+/* NavBar styling */
+.NavBar {
+    display: flex;
+    justify-content: space-evenly;
+
+    /* border: 1px solid lime; */
+}
+.NavBar a {
+    padding: 5px 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FCF460;
+
+}
+
+.NavBar a:hover,
+.NavBar a.active {
+    color: #F1B819;
+    text-shadow: 0 0 5px black;
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+}
