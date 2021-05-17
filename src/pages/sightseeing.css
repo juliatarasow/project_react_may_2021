@@ -1,7 +1,7 @@
 .Sightseeing {
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 90%;
     margin: 20px auto;
     justify-content: space-evenly;
 }

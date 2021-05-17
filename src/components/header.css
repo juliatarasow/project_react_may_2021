@@ -1,6 +1,7 @@
 header {
     /* background-color: rgba(255, 255, 255, 0.4);
     background-color: #304778; */
+
     background-color: rgba(48, 71, 120, 0.85);
     box-shadow: 0 5px 10px black;
 }
@@ -12,6 +13,9 @@ header >div {
     justify-content: space-around;
     align-items: center;
     color: white;
+    
+    /* border: 1px solid lime; */
+
 }
 header > div > * {
     width: 30%;
@@ -31,6 +35,7 @@ header > div > * {
     font-size: 0.8rem;
 }
 
+
 /* NavBar styling */
 .NavBar {
     display: flex;
@@ -45,7 +50,6 @@ header > div > * {
     color: #FCF460;
 
 }
-
 .NavBar a:hover,
 .NavBar a.active {
     color: #F1B819;

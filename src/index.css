@@ -11,6 +11,7 @@ body {
     /* background-image: url("./images/bg_porto.jpg"); */
     /* background-position: center; */
     /* height: 100vh; */
+    /* width: 100%; */
 
     background-image: url("./images/bg-tile-small.jpg");
   }
@@ -23,7 +24,7 @@ body h1 {
 }
 
 .Transport {
-  width: 80vw;
+  width: 80%;
   margin: 20px auto;
   padding: 20px 30px;
   background-color: rgba(255, 255, 255, 0.9);
