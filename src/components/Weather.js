@@ -10,13 +10,13 @@ export default function Weather() {
         return (
             <div className="Weather">
                 <div>
-                    {weather.main.temp > 0 ? '+' + Math.ceil(weather.main.temp) + "° C" : "-" + Math.floor(weather.main.temp) + "° C"}
+                    {weather.main.temp > 0 ? '+' + Math.ceil(weather.main.temp) + "° C" : Math.floor(weather.main.temp) + "° C"}
                     
-                    <img src={"http://openweathermap.org/img/wn/"+weather.weather[0].icon+".png"} alt={weather.weather[0].icon}  />
+                    <img src={"http://openweathermap.org/img/wn/"+weather.weather[0].icon+".png"} alt={weather.weather[0].description}  />
                 </div>
 
                 <div>
-                    {weather.weather[0].main} : {weather.weather[0].description} <br />
+                    {weather.weather[0].main} : {weather.weather[0].description}
                 </div>
             </div>
         )

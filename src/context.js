@@ -30,13 +30,13 @@ export function AllProvider({ children }) {
                 setWeather(res.data)
             })
 
-             // Fetching Porto Covid data:
+        // Fetching Porto Covid data:
         axios.get("https://covid19.mathdro.id/api/countries/Portugal")
-        .then(res => {
-            console.log("data : ", res.data);
-            setCovidData(res.data)
-        })
-          
+            .then(res => {
+                console.log("data : ", res.data);
+                setCovidData(res.data)
+            })
+
     }, [])
 
     return (
