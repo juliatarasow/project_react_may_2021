@@ -10,6 +10,9 @@ export function AllProvider({ children }) {
 
     const [weather, setWeather] = useState([]);
 
+    const [covidData, setCovidData] = useState([]);
+
+
 
     useEffect(() => {
 
@@ -26,11 +29,18 @@ export function AllProvider({ children }) {
                 // console.log("data : ", res.data);
                 setWeather(res.data)
             })
+
+             // Fetching Porto Covid data:
+        axios.get("https://covid19.mathdro.id/api/countries/Portugal")
+        .then(res => {
+            console.log("data : ", res.data);
+            setCovidData(res.data)
+        })
           
     }, [])
 
     return (
-        <AllContext.Provider value={{ sights, weather }}>
+        <AllContext.Provider value={{ sights, weather, covidData }}>
             {children}
         </AllContext.Provider>
     )
