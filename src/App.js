@@ -1,22 +1,25 @@
 import { Switch, Route } from "react-router-dom";
-import Footer from "./components/Footer";
+
 
 // Components:
-import Header from './components/Header';
+import Header from './components/Header/Header';
+import Footer from "./components/Footer/Footer";
 
 // Pages:
-import Homepage from './pages/Homepage';
-import Climate from "./pages/Climate";
-import Sightseeing from "./pages/Sightseeing";
-import Culture from "./pages/Culture";
-import Transport from "./pages/Transport";
-import Covid from "./pages/Covid";
-import NotFound from "./pages/NotFound";
+import Homepage from './pages/Homepage/Homepage';
+import Climate from "./pages/Climate/Climate";
+import Sightseeing from "./pages/Sightseeing/Sightseeing";
+import Culture from "./pages/Culture/Culture";
+import Transport from "./pages/Transport/Transport";
+import Covid from "./pages/Covid/Covid";
+import NotFound from "./pages/NotFound/NotFound";
+
+import './App.css';
 
 
 function App() {
   return (
-    <div style={{paddingBottom:"60px"}}>
+    <div style={{ paddingBottom: "60px" }}>
 
       <Header />
 

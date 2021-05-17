@@ -1,0 +1,25 @@
+/* my reset css */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+  /* background-image: url("./images/bg-tile-small.jpg"); */
+    background-image: url("./images/porto-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+body h1 {
+  padding: 20px;
+  text-align: center;
+  color: rgb(238, 238, 238);
+
+  /* color: #304778;
+  text-shadow: 0 0 10px #FCF460; */
+}
