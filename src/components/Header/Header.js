@@ -10,18 +10,23 @@ export default function Header() {
 
         <header>
             <nav className="NavBar">
+
                 {/* <Link to="/">Porto</Link> */}
                 <div>
-                    <img src={porto} alt="porto" style={{ height: "90px", width: "auto" }} />
+                    <NavLink exact to="/"><img src={porto} alt="porto" className="Stamp" /></NavLink>
                 </div>
+
+                {/* Links to the Pages */}
                 <div className="NavLinks">
                     <NavLink exact to="/" >Porto</NavLink>
-                    <NavLink to="/climate">Climate</NavLink>
-                    <NavLink to="/sightseeing">Sightseeing</NavLink>
-                    <NavLink to="/culture">Culture</NavLink>
-                    <NavLink to="/transport">Transport</NavLink>
-                    <NavLink to="/covid">COVID</NavLink>
+                    <NavLink exact to="/climate">Climate</NavLink>
+                    <NavLink exact to="/sightseeing">Sightseeing</NavLink>
+                    <NavLink exact to="/culture">Culture</NavLink>
+                    <NavLink exact to="/transport">Transport</NavLink>
+                    <NavLink exact to="/covid">COVID</NavLink>
                 </div>
+
+                {/* Weather and Clock */}
                 <Weather />
                 <div className="Clock">
                     <h3>Clock</h3>

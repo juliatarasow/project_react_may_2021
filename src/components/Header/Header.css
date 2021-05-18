@@ -13,21 +13,10 @@ header > div > * {
     width: 30%;
 }
 
-/* Weather styling */
-.Weather {
-    text-align: center;
-}
-
-/* Clock styling */
-.Clock {
-    text-align: right;
-}
-
-
 /* NavBar styling */
 .NavBar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
     padding-top: 10px;
     color: #eeeeee;
@@ -41,21 +30,43 @@ header > div > * {
     letter-spacing: 2px;
 }
 
-/* .NavLinks {
-    display: flex;
-    justify-content: space-between;
-    width: 40vw;
-} */
+/* Stamp */
+.Stamp {
+    height: 90px;
+    width: auto;
+    padding-left: 20px;
+}
 
-.NavLinks a:hover,
-.NavLinks a:active {
+/* Links to the Pages */
+.NavBar > .NavLinks a:hover, 
+.NavBar > .NavLinks a.active {
     color: #b30000;
-    transform: scale(1.5, 1.5);
+    transform: scale(0.5, 0.5); 
     transition: 0.3s;
 }
 
+/* Weather and Clock */
+.Weather, .Clock {
+    font-weight: bold;
+}
+
+.Weather {
+    text-align: center;
+    padding: 10px;
+}
+
+.Clock {
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* horizontal line */
 hr {
     border: 3px solid #b30000;
     margin: 10px 0 0;
     opacity: 1;
+}
+
+@media all and (max-width: 1100px) {
+    
 }
