@@ -4,7 +4,8 @@
     background-color: rgb(238, 238, 238);
     margin: 10px 20px;
     padding: 10px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
 
     display: flex;
     flex-flow: column;
@@ -12,7 +13,7 @@
 }
 
 .SightCard:hover {
-    box-shadow: 0 0 40px #304778;
+    box-shadow: 0 0 20px #304778;
 }
 
 .SightCard img {
