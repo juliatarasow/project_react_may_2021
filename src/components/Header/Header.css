@@ -1,16 +1,7 @@
 header {
     background-color: #e28a62;
-}
-
-header > div {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-}
-header > div > * {
-    width: 30%;
+    min-height: 115px;
+    width: 100%;
 }
 
 /* NavBar styling */

@@ -33,10 +33,11 @@ export default function Header() {
                         <h3>Clock</h3>
                         <div>.....</div>
                     </div>
+
                 </div>
-            </nav>
+            </nav >
             <hr />
-        </header>
+        </header >
 
 
     )

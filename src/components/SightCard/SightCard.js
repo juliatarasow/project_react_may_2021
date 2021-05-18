@@ -14,7 +14,7 @@ export default function SightCard({ id, image, title, description, more, map }) 
 
             <div>
                 {/* "Read more" button */}
-                <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target={"#modal" + id}>
+                <button type="button" className="btn" data-bs-toggle="modal" data-bs-target={"#modal" + id}>
                     Read more
                 </button>
 
