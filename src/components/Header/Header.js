@@ -27,10 +27,12 @@ export default function Header() {
                 </div>
 
                 {/* Weather and Clock */}
-                <Weather />
-                <div className="Clock">
-                    <h3>Clock</h3>
-                    <div>.....</div>
+                <div className="LocalData">
+                    <Weather />
+                    <div className="Clock">
+                        <h3>Clock</h3>
+                        <div>.....</div>
+                    </div>
                 </div>
             </nav>
             <hr />
