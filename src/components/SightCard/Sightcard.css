@@ -4,8 +4,8 @@
     background-color: rgb(238, 238, 238);
     margin: 10px 20px;
     padding: 10px;
-    box-shadow: 0 0 20px black;
-    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -22,16 +22,16 @@
     object-fit: cover;
 }
 .SightCard button {
-    background-color: #e28a62;
-    color: #b30000;
+    background-color: #b30000;
+    color: white;
     font-weight: bold;
     border: none;
 }
 
 .SightCard button:hover,
 .SightCard button:active {
-    color: white;
-    background-color: #b30000;
+    color: #b30000;
+    background-color: #e28a62;
     font-weight: bold;
     border: none;
 }
