@@ -37,7 +37,9 @@ header {
 }
 
 /* Weather and Clock */
-.Weather, .Clock {
+.LocalData {
+    display: flex;
+    flex-flow: row;
     font-weight: bold;
 }
 
