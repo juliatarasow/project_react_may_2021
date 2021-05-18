@@ -1,16 +1,7 @@
 header {
     background-color: #e28a62;
-}
-
-header > div {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-}
-header > div > * {
-    width: 30%;
+    min-height: 115px;
+    width: 100%;
 }
 
 /* Weather styling */
@@ -21,6 +12,7 @@ header > div > * {
 /* Clock styling */
 .Clock {
     text-align: right;
+    padding: 0 20px;
 }
 
 
@@ -41,17 +33,16 @@ header > div > * {
     letter-spacing: 2px;
 }
 
-/* .NavLinks {
+.NavLinks {
     display: flex;
-    justify-content: space-between;
-    width: 40vw;
-} */
+    /* justify-content: space-between; */
+    /* width: 40vw; */
+    flex-wrap: wrap;
+}
 
 .NavLinks a:hover,
-.NavLinks a:active {
+.NavLinks a.active {
     color: #b30000;
-    transform: scale(1.5, 1.5);
-    transition: 0.3s;
 }
 
 hr {

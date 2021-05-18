@@ -1,3 +1,18 @@
+# Fetch/clone a copy of this project
+
+Then run in Terminal inside the project folder:
+***
+### npm i 
+(to install node modules folder)
+***
+### jsonserver --path ./data.json --port 8000 
+(to run virtual server with data.json)
+***
+in another terminal window:
+### npm start
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    /* height: calc(100vh - 166px); */
 }
 
 .Logo {

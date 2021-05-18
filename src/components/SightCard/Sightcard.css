@@ -21,3 +21,18 @@
     margin-bottom: 10px;
     object-fit: cover;
 }
+.SightCard button {
+    background-color: #e28a62;
+    color: #b30000;
+    font-weight: bold;
+    border: none;
+}
+
+.SightCard button:hover,
+.SightCard button:active {
+    color: white;
+    background-color: #b30000;
+    font-weight: bold;
+    border: none;
+}
+

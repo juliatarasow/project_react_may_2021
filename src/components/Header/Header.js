@@ -10,10 +10,11 @@ export default function Header() {
 
         <header>
             <nav className="NavBar">
-                {/* <Link to="/">Porto</Link> */}
+                
                 <div>
                     <img src={porto} alt="porto" style={{ height: "90px", width: "auto" }} />
                 </div>
+
                 <div className="NavLinks">
                     <NavLink exact to="/" >Porto</NavLink>
                     <NavLink to="/climate">Climate</NavLink>
@@ -22,7 +23,9 @@ export default function Header() {
                     <NavLink to="/transport">Transport</NavLink>
                     <NavLink to="/covid">COVID</NavLink>
                 </div>
+
                 <Weather />
+
                 <div className="Clock">
                     <h3>Clock</h3>
                     <div>.....</div>
