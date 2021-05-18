@@ -4,9 +4,8 @@
     background-color: rgb(238, 238, 238);
     margin: 10px 20px;
     padding: 10px;
-    box-shadow: 0 0 10px black;
-    border-radius: 3px;
-
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;

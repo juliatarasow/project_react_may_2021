@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import './Header.css';
-import Weather from './Weather';
+import Weather from '../Weather';
 import porto from '../../images/selo_2017.png';
 
 export default function Header() {
