@@ -1,12 +1,7 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    /* background-color: rgba(255, 255, 255, 0.4); */
-    /* background-color: #FCF460; */
-    background-color: rgba(252, 244, 96, 0.8);
-    box-shadow: 0 -5px 10px black;
+    height: 60px;
+    background-color: #7296b4;
     text-align: center;
-    padding: 15px 0;
-    color: #304778;
-}
+    line-height: 60px;
+    color: #eeeeee;
+    } 

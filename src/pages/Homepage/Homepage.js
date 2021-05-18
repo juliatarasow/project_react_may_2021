@@ -3,9 +3,9 @@ import './Homepage.css';
 
 export default function Homepage() {
     return (
-        <div>
-            <h1>Homepage - Porto</h1>
-
+        <div className="Homepage">
+            <h1 className="Logo"><span>Porto</span>  The Undefeated City</h1>
+            {/* <span>The Undefeated City</span> */}
         </div>
     )
 }

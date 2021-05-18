@@ -1,10 +1,8 @@
 header {
-    background-color: rgba(48, 71, 120, 0.85);
-    box-shadow: 0 5px 10px black;
+    background-color: #e28a62;
 }
 
-header >div {
-    height: 100px;
+header > div {
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -30,21 +28,34 @@ header > div > * {
 .NavBar {
     display: flex;
     justify-content: space-evenly;
-
-    /* border: 1px solid lime; */
+    align-items: flex-end;
+    padding-top: 10px;
+    color: #eeeeee;
 }
 .NavBar a {
-    padding: 5px 5px 10px;
+    padding: 0px 10px; 
     text-decoration: none;
     font-weight: bold;
-    color: #FCF460;
-
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
 }
 
-.NavBar a:hover,
-.NavBar a.active {
-    color: #F1B819;
-    text-shadow: 0 0 5px black;
-    transform: scale(1.1, 1.1);
+/* .NavLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+} */
+
+.NavLinks a:hover,
+.NavLinks a:active {
+    color: #b30000;
+    transform: scale(1.5, 1.5);
     transition: 0.3s;
+}
+
+hr {
+    border: 3px solid #b30000;
+    margin: 10px 0 0;
+    opacity: 1;
 }

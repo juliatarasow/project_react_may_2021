@@ -19,7 +19,7 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{ paddingBottom: "60px" }}>
+    <div>
 
       <Header />
 

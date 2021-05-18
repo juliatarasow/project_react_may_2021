@@ -6,14 +6,13 @@
     padding: 10px;
     box-shadow: 0 0 20px black;
     border-radius: 5px;
-
     display: flex;
     flex-flow: column;
     justify-content: space-between;
 }
 
 .SightCard:hover {
-    box-shadow: 0 0 40px #304778;
+    box-shadow: 0 0 20px #304778;
 }
 
 .SightCard img {
