@@ -1,0 +1,27 @@
+.healthSection-paragraphs h2 {
+    color: #4B949B;
+    text-align: center;
+    margin: 33px;
+}
+.healthSection-paragraphs h3 {
+    color: #4B949B;
+    margin: 30px auto;
+}
+.healthSection-paragraphs p{
+    color: #033;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.healthSection-paragraphs img {
+    display: block;
+    width: 27%;
+    float: right;
+    border-radius: 15px;
+    margin: 0 15px;
+}
+
+.healthSection-paragraphs div:nth-of-type(2n+2) img {
+    display: block;
+    float: left;
+} 
