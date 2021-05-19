@@ -27,14 +27,26 @@ export function AllProvider({ children }) {
         axios.get("http://api.openweathermap.org/data/2.5/weather?q=Porto&appid=dbea5561a8dca7af021c5b3f69494469&units=metric")
             .then(res => {
                 // console.log("data : ", res.data);
-                setWeather(res.data)
+                // setWeather(res.data)
+
+                if (res.data) {
+                    setWeather(res.data)
+                } else {
+                    alert("No Response!")
+                }
             })
 
         // Fetching Porto Covid data:
         axios.get("https://covid19.mathdro.id/api/countries/Portugal")
             .then(res => {
-                console.log("data : ", res.data);
-                setCovidData(res.data)
+                // console.log("data : ", res.data);
+                // setCovidData(res.data)
+
+                if (res.data) {
+                    setCovidData(res.data)
+                } else {
+                    alert("No Response!")
+                }
             })
 
     }, [])
@@ -45,4 +57,3 @@ export function AllProvider({ children }) {
         </AllContext.Provider>
     )
 }
-

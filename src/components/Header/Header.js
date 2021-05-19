@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import './Header.css';
 import Weather from '../Weather';
 import porto from '../../images/selo_2017.png';
+import Clock from '../Clock';
 
 export default function Header() {
 
@@ -11,7 +12,7 @@ export default function Header() {
         <header>
             <nav className="NavBar">
 
-                {/* <Link to="/">Porto</Link> */}
+                {/* Clickable Logo*/}
                 <div>
                     <NavLink exact to="/"><img src={porto} alt="porto" className="Stamp" /></NavLink>
                 </div>
@@ -29,10 +30,9 @@ export default function Header() {
                 {/* Weather and Clock */}
                 <div className="LocalData">
                     <Weather />
-                    <div className="Clock">
-                        <h3>Clock</h3>
-                        <div>.....</div>
-                    </div>
+
+                    <Clock />
+
                 </div>
             </nav >
             <hr />

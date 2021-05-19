@@ -6,8 +6,10 @@ export default function Weather() {
 
     const { weather } = useContext(AllContext);
 
-    if (weather.main) {
-        return (
+    return (
+
+        weather.main ?
+
             <div className="Weather">
                 <div>
 
@@ -17,15 +19,15 @@ export default function Weather() {
                 </div>
 
                 <div>
-                    {weather.weather[0].main} : {weather.weather[0].description}
+                    {weather.weather[0].main}: {weather.weather[0].description}
                 </div>
             </div >
-        )
-    } else {
-        return (
+
+            :
+
             <div className="Weather">
                 Loading Weather...
             </div>
-        )
-    }
+
+    )
 }

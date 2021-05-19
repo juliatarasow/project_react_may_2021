@@ -1,11 +1,11 @@
 /* Climate Page */
 .Climate {
-    width: 95%;
+    width: 80%;
     margin: 20px auto;
     padding: 20px 30px;
     background-color: rgba(255, 255, 255, 0.829);
     box-shadow: 0 0 10px black;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 h1 {

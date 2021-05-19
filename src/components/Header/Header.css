@@ -8,7 +8,8 @@ header {
 .NavBar {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    /* align-items: flex-end; */
+    align-items: center;
     padding-top: 10px;
     color: #eeeeee;
 }
@@ -46,11 +47,32 @@ header {
 .Weather {
     text-align: center;
     padding: 10px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .Clock {
     text-align: right;
-    padding-right: 20px;
+    padding: 10px 20px 10px;
+
+    font-size: 16px;
+    color: #b30000;
+    border-left: 1px solid #b30000 ;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.Clock > div {
+    font-size: 15px;
+    color: white;
 }
 
 /* horizontal line */
@@ -76,6 +98,6 @@ hr {
     .LocalData {
         display: flex;
         flex-direction: row;
-        
+        align-self: flex-end;
     }
 }

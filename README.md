@@ -4,6 +4,9 @@ Then run in Terminal inside the project folder:
 ***
 ### npm i 
 (to install node modules folder)
+ 
+### npm install --save react-card-with-image
+(to install additional package)
 ***
 ### jsonserver --path ./data.json --port 8000 
 (to run virtual server with data.json)
