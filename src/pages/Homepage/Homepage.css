@@ -22,14 +22,28 @@
     font-size: 12vw;
     margin-right: 30px;
 }
+.LogoSmall {
+    display: none;
+}
 
-/* span {
-    font-weight: bold;
-    font-size: 2vw;
-    background-color: #eeeeee;
-    border-radius: 20px;
-    margin: 40px;
-    padding: 20px;
+@media all and (max-width: 954px) {
+    .Logo {
+        display: none;
+    }
 
-    color:#b30000;
-} */
+    .LogoSmall {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;  
+        justify-content: flex-start;     
+    }
+    .Homepage {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;  
+        justify-content: flex-start; 
+    }
+    .LogoSmall {
+        font-size: 20vw;
+    }
+}

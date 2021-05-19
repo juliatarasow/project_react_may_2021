@@ -33,7 +33,7 @@ header {
 .NavBar > .NavLinks a:hover, 
 .NavBar > .NavLinks a.active {
     color: #b30000;
-    transform: scale(0.5, 0.5); 
+    transform: scale(1.5, 1.5); 
     transition: 0.3s;
 }
 
@@ -93,11 +93,31 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 100%;
+        padding-top: 0;
     }
     .LocalData {
         display: flex;
         flex-direction: row;
         align-self: flex-end;
+        order: 1;
     }
+    .NavLinks {
+        order: 2;
+        padding: 10px 0;
+    }
+}
+
+@media all and (max-width: 690px) {
+    .NavLinks {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+   .NavBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+   }
 }
