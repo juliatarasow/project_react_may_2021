@@ -7,6 +7,9 @@
     box-shadow: 0 0 10px black;
     border-radius: 3px;
 }
+.Climate > p {
+    margin: 20px 0 16px 24px;
+}
 
 h1 {
     font-size: 45px;
