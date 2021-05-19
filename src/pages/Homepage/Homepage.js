@@ -5,7 +5,12 @@ export default function Homepage() {
     return (
         <div className="Homepage">
             <h1 className="Logo"><span>Porto</span>  The Undefeated City</h1>
-            {/* <span>The Undefeated City</span> */}
+
+            {/* Logo for smaller devices */}
+            <h1 className="LogoSmall">Porto</h1>
+
+
+
         </div>
     )
 }
