@@ -7,3 +7,29 @@
     box-shadow: 0 0 10px black;
     border-radius: 3px;
   }
+
+.Transport img {
+  width: 270px;
+  float: right;
+  margin-left: 20px;
+}
+
+@media all and (max-width: 954px) {
+
+  .Transport {
+    width: 90%;
+    padding: 20px;
+
+  }
+  .Transport img {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .Transport img {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}

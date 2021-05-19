@@ -11,12 +11,12 @@ export default function Transport() {
                 <h3>Roads and bridges</h3>
 
                 <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/VCI.svg/518px-VCI.svg.png" alt="Internal highway" style={{ float: "right", width: "250px", marginLeft: "20px" }} />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/VCI.svg/518px-VCI.svg.png" alt="Internal highway" />
 
                     The road system capacity is augmented by the <i>Via de Cintura Interna</i> or A20, an internal highway connected to several motorways and city exits, complementing the <i>Circunvalação</i> 4-lane peripheric road, which borders the north of the city and connects the eastern side of the city to the Atlantic shore. The city is connected to Valença (Viana do Castelo) by highway A28, to Estarreja (Aveiro) by the A29, to Lisbon by the A1, to Bragança by the A4 and to Braga by the A3. There is also an outer-ring road, the A41, that connects all the main cities around Porto, linking the city to other major metropolitan highways such as the A7, A11, A42, A43 and A44. Since 2011, a new highway, the A32, connects the metropolitan area to São João da Madeira and Oliveira de Azeméis.
                 </p>
                 <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Lu%C3%ADs_I_Bridge%2C_Porto%2C_Portugal.jpg/320px-Lu%C3%ADs_I_Bridge%2C_Porto%2C_Portugal.jpg" alt="Dom Luís I Bridge" style={{ float: "left", width: "250px", marginRight: "20px" }} />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Lu%C3%ADs_I_Bridge%2C_Porto%2C_Portugal.jpg/320px-Lu%C3%ADs_I_Bridge%2C_Porto%2C_Portugal.jpg" alt="Dom Luís I Bridge" style={{ float: "left", margin: "0 20px 0 0" }} />
 
                     The <b>Dom Luís I Bridge</b> (Ponte de Dom Luís I) is a double-deck metal arch bridge that spans the River Douro between Porto and Vila Nova de Gaia. Built in 1876, its 172 metres (564 ft) span was then the longest of its type in the world. The top-level is used for the Porto Metro trains, with an option for pedestrians; the lower level carries traffic and pedestrians.
                 </p>
@@ -34,10 +34,10 @@ export default function Transport() {
                 </p>
 
 
-                <h3>Airports</h3>
-                <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Aeroporto_Porto_17.jpg" alt="Internal highway" style={{ float: "right", width: "250px", marginLeft: "20px" }} />
-
+                <h3>Airports
+                    
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Aeroporto_Porto_17.jpg" alt="Internal highway" /></h3>
+                <p>              
                     Porto is served by <b>Francisco de Sá Carneiro Airport </b>which is located in Pedras Rubras, Moreira da Maia civil parish of the neighbouring Municipality of Maia, some 15 kilometres (9 miles) to the north-west of the city centre. The airport underwent a massive programme of refurbishment due to the Euro 2004 football championships being partly hosted in the city.
                 </p>
 
@@ -48,7 +48,7 @@ export default function Transport() {
 
                 <p>
                     
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Estaci%C3%B3n_de_tren_S%C3%A3o_Bento%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_06.jpg/320px-Estaci%C3%B3n_de_tren_S%C3%A3o_Bento%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_06.jpg" alt="São Bento Station" style={{ float: "left", width: "250px", marginRight: "20px" }} />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Estaci%C3%B3n_de_tren_S%C3%A3o_Bento%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_06.jpg/320px-Estaci%C3%B3n_de_tren_S%C3%A3o_Bento%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_06.jpg" alt="São Bento Station" style={{ float: "left",  margin: "0 20px 0 0" }} />
                 
                 From Campanhã station, both light rail and suburban rail services connect to the city center. The main central station is <b>São Bento Station</b>, which is itself a notable landmark in the heart of Porto. This station was built between 1900 and 1916, based on plans by architect José Marques da Silva. The large panels of azulejo tile were designed by Jorge Colaço; the murals represent moments in the country's history and rural scenes showing the people of various regions.</p>
 
@@ -60,10 +60,11 @@ export default function Transport() {
                 <h5>Buses</h5>
                 <p>The city has an extensive bus network run by the STCP (Sociedade dos Transportes Colectivos do Porto, or Porto Public Transport Society) which also operates lines in the neighbouring cities of Gaia, Maia, Matosinhos, Gondomar and Valongo. Other smaller companies connect such towns as Paços de Ferreira and Santo Tirso to the town center. In the past, the city also had trolleybuses. A bus journey is 2.00 €, which must be paid in cash.</p>
 
-                <h5>Trams</h5>
+                <h5>Trams
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Electrico_e_C%C3%A2mara_do_Porto_%28Av._dos_Aliados%29.JPG/320px-Electrico_e_C%C3%A2mara_do_Porto_%28Av._dos_Aliados%29.JPG" alt="Heritage tram" />
+                </h5>
                 <p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Electrico_e_C%C3%A2mara_do_Porto_%28Av._dos_Aliados%29.JPG/320px-Electrico_e_C%C3%A2mara_do_Porto_%28Av._dos_Aliados%29.JPG" alt="Heritage tram" style={{ float: "right", width: "250px", marginLeft: "20px" }} />
-                    
                     A tram (streetcar) network, of which only three lines remain one of them being a tourist line on the shores of the Douro, saw its construction begin on 12 September 1895, therefore being the first in the Iberian Peninsula. The lines in operation all use vintage tramcars, so the service has become a heritage tramway. STCP also operates these routes as well as a tram museum. The first line of the area's modern-tram, or light rail system, named Metro do Porto, opened for revenue service in January 2003 (after a brief period of free, introductory service in December 2002).</p>
 
                 <h5>Porto public transportation statistics</h5>
