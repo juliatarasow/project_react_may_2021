@@ -1,16 +1,10 @@
 
-// import { useContext } from 'react';
-// import { SightsContext } from "../context"
-
 import ClimateCard2 from '../../components/ClimateComp/ClimateCard2.jsx'
 
 import './Climate.css'
 
 
-export default function Climate() {
-
-    // const { weather } = useContext(SightsContext);
-    
+export default function Climate() {  
         
     return (
         <div>

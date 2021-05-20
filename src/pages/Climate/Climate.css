@@ -15,3 +15,10 @@ h1 {
     font-size: 45px;
     text-shadow: 0 0 20px black;
 }
+
+@media all and (max-width: 1025px){
+    .Climate {
+      width: 90%;
+      padding: 20px;
+    }
+  }

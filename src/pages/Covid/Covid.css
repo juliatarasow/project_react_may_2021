@@ -2,14 +2,12 @@
 
 .healthSection {
   width: 80%;
-  margin: 20px auto 600px;
+  margin: 20px auto;
   padding: 20px 30px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px black;
   border-radius: 3px;
-
 }
-
 
 .Covid {
   width: 100%;
@@ -37,3 +35,9 @@
   }
 
 
+  @media all and (max-width: 1025px){
+    .healthSection {
+      width: 90%;
+      padding: 20px;
+    }
+  }
