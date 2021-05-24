@@ -6,7 +6,8 @@ import "./Sightseeing.css";
 
 
 export default function Sightseeing() {
-
+    
+    // Using "sights"/sightsData.json from context.js
     const { sights } = useContext(AllContext);
 
     return (

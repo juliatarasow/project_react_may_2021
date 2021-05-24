@@ -6,15 +6,20 @@ header {
 
 /* NavBar styling */
 .NavBar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-end; */
     align-items: center;
     padding-top: 10px;
     color: #eeeeee;
 }
-.NavBar a {
-    padding: 0px 10px; 
+
+.NavBar > .NavLinks {
+    display: flex;
+}
+
+.NavBar > .NavLinks > a {
+    padding: 2px 15px; 
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -23,18 +28,21 @@ header {
 }
 
 /* Stamp */
-.Stamp {
+.Stamp, .Stamp1 {
     height: 90px;
     width: auto;
     padding-left: 20px;
+}
+.hidden {
+    display: none;
 }
 
 /* Links to the Pages */
 .NavBar > .NavLinks a:hover, 
 .NavBar > .NavLinks a.active {
     color: #b30000;
-    transform: scale(1.5, 1.5); 
-    transition: 0.3s;
+    transform: scale(1.2, 1.2); 
+    transition: 0.6s;
 }
 
 /* Weather and Clock */
@@ -51,8 +59,7 @@ header {
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    align-items: flex-end;
-
+    align-items: center;
 }
 
 .Clock {
@@ -67,7 +74,6 @@ header {
     flex-flow: column;
     justify-content: flex-end;
     align-items: flex-end;
-
 }
 
 .Clock > div {
@@ -82,46 +88,75 @@ hr {
     opacity: 1;
 }
 
-.dropdown {
-    display: none;
-}
-
 @media all and (max-width: 1100px) {
-    .Stamp {
-        display: none;
-    }
-}
-
-@media all and (max-width: 954px) {
     .NavBar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        flex-wrap: wrap;
         padding-top: 0;
     }
-    .LocalData {
-        display: flex;
-        flex-direction: row;
-        align-self: flex-end;
+    
+    .Stamp {
+        display: block;
         order: 1;
     }
-    .NavLinks {
+    .hidden {
+        display: none;
+    }
+    .LocalData {
         order: 2;
+    }
+    .NavLinks {
+        order: 3;
         padding: 10px 0;
+        width: 100%;
+        justify-content: center;
     }
 }
 
-@media all and (max-width: 690px) {
+@media all and (max-width: 720px) {
+    .NavBar > div:first-of-type {
+        display: none;
+    }
+    .NavBar {
+        position: relative;
+        flex-direction: row;
+        align-items: flex-end;
+   }
+    .hidden {
+        display: block;
+        padding: 0 20px;
+
+        position: absolute;
+        top: 12px;
+        right: 0px;
+    }
+
     .NavLinks {
-        display: flex;
+        width: fit-content;
         flex-direction: column;
         order: 1;
+        padding-left: 10px;
     }
-   .NavBar {
-        display: flex;
-        flex-direction: row;
+}
+
+@media all and (max-width: 472px) {
+    .hidden {
+        padding: 0;
+    }
+    .NavBar {
+        flex-direction: column;
         justify-content: space-between;
+        align-items: center;
    }
+    .NavLinks {
+        width: 75%;
+        align-self: flex-start;
+    }
+    .NavBar > .NavLinks > a {
+        padding: 2px 20px;
+        font-size: 0.9rem;
+    }
+
+    .LocalData > * {
+        padding: 0 5px;
+    }
 }

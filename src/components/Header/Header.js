@@ -29,6 +29,10 @@ export default function Header() {
 
                 {/* Weather and Clock */}
                 <div className="LocalData">
+                    <div className="hidden">
+                        <NavLink exact to="/"><img src={porto} alt="porto" className="Stamp1" /></NavLink>
+                    </div>
+
                     <Weather />
 
                     <Clock />

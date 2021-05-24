@@ -8,10 +8,7 @@ Then run in Terminal inside the project folder:
 ### npm install --save --force react-card-with-image
 (to install additional package)
 ***
-### jsonserver --path ./data.json --port 8000 
-(to run virtual server with data.json)
-***
-in another terminal window:
+in another terminal window - to start http://localhost:3000/
 ### npm start
 
 ---
