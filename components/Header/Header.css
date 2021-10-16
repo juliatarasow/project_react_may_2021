@@ -1,0 +1,162 @@
+header {
+    background-color: #e28a62;
+    min-height: 115px;
+    width: 100%;
+}
+
+/* NavBar styling */
+.NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: #eeeeee;
+}
+
+.NavBar > .NavLinks {
+    display: flex;
+}
+
+.NavBar > .NavLinks > a {
+    padding: 2px 15px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Stamp */
+.Stamp, .Stamp1 {
+    height: 90px;
+    width: auto;
+    padding-left: 20px;
+}
+.hidden {
+    display: none;
+}
+
+/* Links to the Pages */
+.NavBar > .NavLinks a:hover, 
+.NavBar > .NavLinks a.active {
+    color: #b30000;
+    transform: scale(1.2, 1.2); 
+    transition: 0.6s;
+}
+
+/* Weather and Clock */
+.LocalData {
+    display: flex;
+    flex-flow: row;
+    font-weight: bold;
+}
+
+.Weather {
+    text-align: center;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Clock {
+    text-align: right;
+    padding: 10px 20px 10px;
+
+    font-size: 16px;
+    color: #b30000;
+    border-left: 1px solid #b30000 ;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Clock > div {
+    font-size: 15px;
+    color: white;
+}
+
+/* horizontal line */
+hr {
+    border: 3px solid #b30000;
+    margin: 10px 0 0;
+    opacity: 1;
+}
+
+@media all and (max-width: 1100px) {
+    .NavBar {
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    
+    .Stamp {
+        display: block;
+        order: 1;
+    }
+    .hidden {
+        display: none;
+    }
+    .LocalData {
+        order: 2;
+    }
+    .NavLinks {
+        order: 3;
+        padding: 10px 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .NavBar > div:first-of-type {
+        display: none;
+    }
+    .NavBar {
+        position: relative;
+        flex-direction: row;
+        align-items: flex-end;
+   }
+    .hidden {
+        display: block;
+        padding: 0 20px;
+
+        position: absolute;
+        top: 12px;
+        right: 0px;
+    }
+
+    .NavLinks {
+        width: fit-content;
+        flex-direction: column;
+        order: 1;
+        padding-left: 10px;
+    }
+}
+
+@media all and (max-width: 472px) {
+    .hidden {
+        padding: 0;
+    }
+    .NavBar {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+   }
+    .NavLinks {
+        width: 75%;
+        align-self: flex-start;
+    }
+    .NavBar > .NavLinks > a {
+        padding: 2px 20px;
+        font-size: 0.9rem;
+    }
+
+    .LocalData > * {
+        padding: 0 5px;
+    }
+}

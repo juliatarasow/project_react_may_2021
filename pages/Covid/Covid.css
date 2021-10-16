@@ -1,0 +1,43 @@
+/* healthcare Page */
+
+.healthSection {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px black;
+  border-radius: 3px;
+}
+
+.Covid {
+  width: 100%;
+  margin: 20px auto 60px;
+  padding: 20px 30px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  box-shadow: 0 0 10px black;
+  border-radius: 3px;
+  background-image: url("https://thumbs.dreamstime.com/b/medicine-doctor-touching-electronic-medical-record-tablet-dna-digital-healthcare-network-connection-hologram-modern-virtual-154742526.jpg");
+  background-size: cover;
+  background-position: 0 -250px;
+
+  }
+  .Covid h2 {
+    color: #4B949B;
+    text-align: center;
+    text-shadow: 0 0 15px #fff;
+  }
+  .Covid h3 {
+    color: #4B949B;
+    text-shadow: 0 0 15px #fff
+  }
+  .Covid p {
+    color: #4B949B;
+  }
+
+
+  @media all and (max-width: 1025px){
+    .healthSection {
+      width: 90%;
+      padding: 20px;
+    }
+  }
