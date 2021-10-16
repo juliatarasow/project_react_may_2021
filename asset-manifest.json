@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/project_react_may_2021/static/css/main.5ba359ad.chunk.css",
+    "main.js": "/project_react_may_2021/static/js/main.5679a1da.chunk.js",
+    "main.js.map": "/project_react_may_2021/static/js/main.5679a1da.chunk.js.map",
+    "runtime-main.js": "/project_react_may_2021/static/js/runtime-main.6d82a3a6.js",
+    "runtime-main.js.map": "/project_react_may_2021/static/js/runtime-main.6d82a3a6.js.map",
+    "static/css/2.1c9fa464.chunk.css": "/project_react_may_2021/static/css/2.1c9fa464.chunk.css",
+    "static/js/2.8785e844.chunk.js": "/project_react_may_2021/static/js/2.8785e844.chunk.js",
+    "static/js/2.8785e844.chunk.js.map": "/project_react_may_2021/static/js/2.8785e844.chunk.js.map",
+    "index.html": "/project_react_may_2021/index.html",
+    "static/css/2.1c9fa464.chunk.css.map": "/project_react_may_2021/static/css/2.1c9fa464.chunk.css.map",
+    "static/css/main.5ba359ad.chunk.css.map": "/project_react_may_2021/static/css/main.5ba359ad.chunk.css.map",
+    "static/js/2.8785e844.chunk.js.LICENSE.txt": "/project_react_may_2021/static/js/2.8785e844.chunk.js.LICENSE.txt",
+    "static/media/porto-slide-1.afb2257a.jpg": "/project_react_may_2021/static/media/porto-slide-1.afb2257a.jpg",
+    "static/media/porto-slide-2.4a462919.jpg": "/project_react_may_2021/static/media/porto-slide-2.4a462919.jpg",
+    "static/media/porto-slide-3.77bbe0cd.jpg": "/project_react_may_2021/static/media/porto-slide-3.77bbe0cd.jpg",
+    "static/media/selo_2017.7d56e00e.png": "/project_react_may_2021/static/media/selo_2017.7d56e00e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d82a3a6.js",
+    "static/css/2.1c9fa464.chunk.css",
+    "static/js/2.8785e844.chunk.js",
+    "static/css/main.5ba359ad.chunk.css",
+    "static/js/main.5679a1da.chunk.js"
+  ]
+}
